@@ -62,5 +62,9 @@ public class Main {
         System.out.println("R1 + R2 = " + r1.add(r2));
         System.out.println("R1 + R2 + R3 = " + r1.add(r2, r3));
         System.out.println("R1 - R2 = " + r1.subtract(r2));
+
+        Circle Cir1 = new Circle();
+        Circle Cir2 = new Circle();
+        System.out.println(Cir1);
     }
 }
